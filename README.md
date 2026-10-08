@@ -1,4 +1,4 @@
-# Wavelet Runs Study
+# Visual Information Representation Across Spatial Scales Using Wavelets
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23228383.svg)](https://doi.org/10.5281/zenodo.23228383)
 
@@ -94,7 +94,7 @@ This is a refactoring of exploratory research code, not a claim of exact reprodu
 
 ## Citation
 
-> Ren, X. (2026). *Wavelet Runs Study* (Version 0.2.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23228383
+> Ren, X. (2026). *Visual Information Representation Across Spatial Scales Using Wavelets* (Version 0.2.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23228383
 
 Metadata are maintained in [CITATION.cff](CITATION.cff). The [Zenodo archive](https://zenodo.org/records/23228383) contains the same verified source-only ZIP as [GitHub release v0.2.0](https://github.com/xr77/wavelet_runs_study/releases/tag/v0.2.0). The earlier 0.1.0 files remain restricted on Zenodo.
 
