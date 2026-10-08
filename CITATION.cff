@@ -3,6 +3,8 @@ message: "If you use this software, please cite this release."
 type: software
 title: "Wavelet Runs Study"
 version: 0.2.0
+date-released: 2026-10-08
+doi: 10.5281/zenodo.23228383
 authors:
   - family-names: Ren
     given-names: Xueying

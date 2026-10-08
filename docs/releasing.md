@@ -1,5 +1,7 @@
 # Code-only releases
 
+Version 0.2.0 is published at https://doi.org/10.5281/zenodo.23228383. Its 26,856-byte source ZIP has SHA-256 `48121126a96e8b3172201d684b6d23c988697c983876b3cf16230c9527e075d5`; the Zenodo MD5 checksum is `b4a596713146d66368518be491a3c18f`. The release tag is immutable; the main branch's citation metadata were updated after DOI publication.
+
 Publish only source code, configuration, tests, examples, and documentation. Never include laboratory data, notebook outputs, saved results, or private backups. Public Git history must also be clean: deleting files from the latest commit does not remove historical copies.
 
 1. Update versions in `pyproject.toml`, `src/wavelet_runs/__init__.py`, and `CITATION.cff`.
