@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this release."
+type: software
+title: "Wavelet Runs Study"
+version: 0.2.0
+authors:
+  - family-names: Ren
+    given-names: Xueying
+    affiliation: University of Pittsburgh
+repository-code: "https://github.com/xr77/wavelet_runs_study"
+license: MIT
+abstract: >-
+  Python software for spatial wavelet features and run-wise classification of
+  fMRI time series. Includes a package, CLI, synthetic example, and numerical
+  and workflow tests. Source code only: no notebooks, laboratory data, or saved
+  research outputs. Historical study results have not been reproduced.
+keywords:
+  - fMRI
+  - neuroimaging
+  - wavelets
+  - spatial scales
+  - classification

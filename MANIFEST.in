@@ -1,0 +1,10 @@
+include LICENSE README.md CITATION.cff CHANGELOG.md CONTRIBUTING.md requirements.txt
+recursive-include docs *.md
+recursive-include examples *.py
+recursive-include tests *.py
+recursive-include tools *.py
+prune .local_archive
+prune .venv
+prune outputs
+prune data
+global-exclude *.ipynb *.nii *.nii.gz *.mat *.npy *.npz *.pdf *.png *.jpg *.pyc

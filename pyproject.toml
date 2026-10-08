@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wavelet-runs-study"
+version = "0.2.0"
+description = "Spatial wavelet features and run-wise classification for fMRI research"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{name = "Xueying Ren"}]
+keywords = ["fmri", "wavelet", "neuroimaging", "classification"]
+dependencies = [
+    "numpy>=1.26,<2",
+    "scipy>=1.11,<1.14",
+    "dtcwt==0.14.0",
+    "nibabel>=5.2,<6",
+    "scikit-learn>=1.5,<1.6",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9", "ruff>=0.9", "build>=1.2"]
+xgboost = ["xgboost>=2.1,<2.2"]
+
+[project.scripts]
+wavelet-runs = "wavelet_runs.cli:main"
+
+[project.urls]
+Repository = "https://github.com/xr77/wavelet_runs_study"
+Issues = "https://github.com/xr77/wavelet_runs_study/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]

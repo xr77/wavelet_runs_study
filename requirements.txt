@@ -1,0 +1,7 @@
+# Tested runtime versions for Python 3.12; package version ranges are in pyproject.toml.
+numpy==1.26.4
+scipy==1.13.1
+dtcwt==0.14.0
+six==1.17.0
+nibabel==5.4.2
+scikit-learn==1.5.2
